@@ -9,7 +9,7 @@
   "dependencies": {
   },
   "scripts": {
-    "unit": "jest",
+    "unit": "jest --silent=false --verbose false",
     "lint": "eslint '*.ts' --quiet --fix",
     "compile": "tsc",
     "test": "npm run compile && npm run unit"
